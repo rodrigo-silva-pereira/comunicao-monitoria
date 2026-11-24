@@ -49,15 +49,12 @@ export function ModalConfigSala({
   onAtualizarMonitor,
 }: ModalConfigSalaProps) {
   const [open, setOpen] = useState(false)
-
-  // Estados para adicionar nova sessão
   const [dia, setDia] = useState("Segunda-feira")
   const [horaInicio, setHoraInicio] = useState("14:00")
   const [horaFim, setHoraFim] = useState("16:00")
   const [local, setLocal] = useState("")
   const [erroHorario, setErroHorario] = useState("")
 
-  // Estado para vincular novo monitor (apenas Docente)
   const [nomeNovoMonitor, setNomeNovoMonitor] = useState("")
 
   const handleAdicionarSessao = (e: React.FormEvent) => {

@@ -10,8 +10,6 @@ import {
   MessageSquare,
   UserPlus,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Disciplina, Material, Mensagem, PerfilSimulado } from "./types";
 import {

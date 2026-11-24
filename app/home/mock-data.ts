@@ -17,7 +17,7 @@ export const DISCIPLINAS_INICIAIS: Disciplina[] = [
     codigo: "DCC012",
     turma: "A",
     nome: "Estrutura de Dados II",
-    professor: "Profa. Bárbara de Melo Quintela",
+    professor: "Prof. Bárbara de Melo Quintela",
     monitor: "Lucas Mendes",
     horariosAula: "Ter 16:00 • Sex 14:00 (S.309 - ICE)",
     sessoes: [{ dia: "Segunda-feira", horario: "10:00 - 12:00", local: "Lab 2 - DCC" }],
